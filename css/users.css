@@ -1,15 +1,38 @@
-.row{
-    height:"30px"
+.row {
+  height: "30px";
 }
-.action{
-    display: flex; 
-    height:50px!important;
-   
+.action {
+  display: flex;
+  height: 50px !important;
 }
-.a{
-    text-decoration: none;
-    color: black;    
+.hyperlink {
+  text-decoration: none;
+  color: black;
 }
-.th{
-    border-right: "1.5px" solid black;
+.tcontainer {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+}
+.theader {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+.column {
+  border-right: 1.5px solid black;
+}
+h1 {
+  text-align: left;
+}
+span{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.deletebtn{
+  border: none;
+  margin-top: 8px
+}
+#alertbox{
+  margin-top:300px
 }

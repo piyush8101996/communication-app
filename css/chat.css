@@ -1,45 +1,48 @@
-.chatbox{
- margin-top: 50px;
- border: 2px solid black;
- height: 80vh;
+.chatbox {
+  margin-top: 50px;
+  border: 2px solid black;
+  height: 80vh;
 }
-.chatboxheader{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-bottom: 2px solid black;
-   height: 30px;
-   
+.chatboxheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  height: 30px;
 }
-.closebtn{
-   width:30px;
-   height: 30px;
-   border: 2px solid black;
-   border-radius:5px;
-   margin-left: 500px;
+.closebtn {
+  width: 10px;
+  height: 10px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  text-align: center;
 }
-.list{
-   border-bottom: 2px solid black;
-   height: 50vh;
+
+.list {
+  border-bottom: 2px solid black;
+  height: 50vh;
+  list-style: none;
 }
-.bottomchatbox{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-bottom: 2px solid black;
-   padding: 10px;
+.bottomchatbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 10px;
 }
-input{
-   width: 700px;
-   height: 30px;
-   border-radius: 10px;
-   margin-right: 5px;
+input {
+  width: 700px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 5px;
 }
-button{
-   margin-right: 10px;
-   padding: 10px;
-   border-radius: 10px;
+button {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
 }
-p{
-   font-weight: bold;
+p {
+  font-weight: bold;
 }
