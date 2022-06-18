@@ -24,15 +24,33 @@
 h1 {
   text-align: left;
 }
-span{
+span {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
 }
-.deletebtn{
+.deletebtn {
   border: none;
-  margin-top: 8px
+  margin-top: 8px;
 }
-#alertbox{
-  margin-top:300px
+#alertbox {
+  margin-top: 300px;
+}
+.delete-container {
+  width: "300px";
+  height: "300px";
+}
+.span {
+  font-size: xx-large;
+  color: white;
+  background-image: radial-gradient(circle, blue 70%, blue 30%);
+}
+.propmt-button {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
