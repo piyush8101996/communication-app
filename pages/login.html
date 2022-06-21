@@ -16,16 +16,25 @@
         <form action="">
             <div class="div">
                 <label for="email">Email:</label>
-                <input type="email" placeholder="Enter Your Email" />
+                <input type="email" id="email" placeholder="Enter Your Email" required />
             </div>
-            <div  class="div">
+            <small id="error" class="errmsg"></small>
+            <div class="div">
                 <label for="email">Password:</label>
-                <input class="password" type="email" placeholder="Enter Your Password" />
+                <input class="password" id="password" type="email" placeholder="Enter Your Password" />
             </div>
-            <div  class="div">
-                <button><a href="../pages/login_success.html">Login</a></button>
+            <small id="passerr" class="errmsg"></small>
+
+            <div class="div">
+                <!-- <button type="submit"><a href="../pages/login_success.html">Login</a></button> -->
+                <button id="btn">login</button>
             </div>
         </form>
+        <script src="../javascript/login.js">
+            
+
+
+        </script>
 
     </div>
 </body>
